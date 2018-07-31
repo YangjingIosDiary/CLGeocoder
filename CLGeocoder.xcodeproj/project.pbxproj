@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		395A9B84210F1E6A00552876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A9B83210F1E6A00552876 /* AppDelegate.m */; };
+		395A9B87210F1E6A00552876 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A9B86210F1E6A00552876 /* ViewController.m */; };
+		395A9B8A210F1E6A00552876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395A9B88210F1E6A00552876 /* Main.storyboard */; };
+		395A9B8C210F1E6B00552876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395A9B8B210F1E6B00552876 /* Assets.xcassets */; };
+		395A9B8F210F1E6B00552876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395A9B8D210F1E6B00552876 /* LaunchScreen.storyboard */; };
+		395A9B92210F1E6B00552876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A9B91210F1E6B00552876 /* main.m */; };
+		395A9B9C210F1E6B00552876 /* CLGeocoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A9B9B210F1E6B00552876 /* CLGeocoderTests.m */; };
+		395A9BA7210F1E6B00552876 /* CLGeocoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 395A9BA6210F1E6B00552876 /* CLGeocoderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		395A9B98210F1E6B00552876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 395A9B77210F1E6A00552876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A9B7E210F1E6A00552876;
+			remoteInfo = CLGeocoder;
+		};
+		395A9BA3210F1E6B00552876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 395A9B77210F1E6A00552876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 395A9B7E210F1E6A00552876;
+			remoteInfo = CLGeocoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		395A9B7F210F1E6A00552876 /* CLGeocoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLGeocoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A9B82210F1E6A00552876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		395A9B83210F1E6A00552876 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		395A9B85210F1E6A00552876 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		395A9B86210F1E6A00552876 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		395A9B89210F1E6A00552876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		395A9B8B210F1E6B00552876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		395A9B8E210F1E6B00552876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		395A9B90210F1E6B00552876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A9B91210F1E6B00552876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		395A9B97210F1E6B00552876 /* CLGeocoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLGeocoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A9B9B210F1E6B00552876 /* CLGeocoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLGeocoderTests.m; sourceTree = "<group>"; };
+		395A9B9D210F1E6B00552876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395A9BA2210F1E6B00552876 /* CLGeocoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLGeocoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		395A9BA6210F1E6B00552876 /* CLGeocoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLGeocoderUITests.m; sourceTree = "<group>"; };
+		395A9BA8210F1E6B00552876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		395A9B7C210F1E6A00552876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A9B94210F1E6B00552876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A9B9F210F1E6B00552876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395A9B76210F1E6A00552876 = {
+			isa = PBXGroup;
+			children = (
+				395A9B81210F1E6A00552876 /* CLGeocoder */,
+				395A9B9A210F1E6B00552876 /* CLGeocoderTests */,
+				395A9BA5210F1E6B00552876 /* CLGeocoderUITests */,
+				395A9B80210F1E6A00552876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		395A9B80210F1E6A00552876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				395A9B7F210F1E6A00552876 /* CLGeocoder.app */,
+				395A9B97210F1E6B00552876 /* CLGeocoderTests.xctest */,
+				395A9BA2210F1E6B00552876 /* CLGeocoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		395A9B81210F1E6A00552876 /* CLGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				395A9B82210F1E6A00552876 /* AppDelegate.h */,
+				395A9B83210F1E6A00552876 /* AppDelegate.m */,
+				395A9B85210F1E6A00552876 /* ViewController.h */,
+				395A9B86210F1E6A00552876 /* ViewController.m */,
+				395A9B88210F1E6A00552876 /* Main.storyboard */,
+				395A9B8B210F1E6B00552876 /* Assets.xcassets */,
+				395A9B8D210F1E6B00552876 /* LaunchScreen.storyboard */,
+				395A9B90210F1E6B00552876 /* Info.plist */,
+				395A9B91210F1E6B00552876 /* main.m */,
+			);
+			path = CLGeocoder;
+			sourceTree = "<group>";
+		};
+		395A9B9A210F1E6B00552876 /* CLGeocoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				395A9B9B210F1E6B00552876 /* CLGeocoderTests.m */,
+				395A9B9D210F1E6B00552876 /* Info.plist */,
+			);
+			path = CLGeocoderTests;
+			sourceTree = "<group>";
+		};
+		395A9BA5210F1E6B00552876 /* CLGeocoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				395A9BA6210F1E6B00552876 /* CLGeocoderUITests.m */,
+				395A9BA8210F1E6B00552876 /* Info.plist */,
+			);
+			path = CLGeocoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		395A9B7E210F1E6A00552876 /* CLGeocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A9BAB210F1E6B00552876 /* Build configuration list for PBXNativeTarget "CLGeocoder" */;
+			buildPhases = (
+				395A9B7B210F1E6A00552876 /* Sources */,
+				395A9B7C210F1E6A00552876 /* Frameworks */,
+				395A9B7D210F1E6A00552876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLGeocoder;
+			productName = CLGeocoder;
+			productReference = 395A9B7F210F1E6A00552876 /* CLGeocoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		395A9B96210F1E6B00552876 /* CLGeocoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A9BAE210F1E6B00552876 /* Build configuration list for PBXNativeTarget "CLGeocoderTests" */;
+			buildPhases = (
+				395A9B93210F1E6B00552876 /* Sources */,
+				395A9B94210F1E6B00552876 /* Frameworks */,
+				395A9B95210F1E6B00552876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395A9B99210F1E6B00552876 /* PBXTargetDependency */,
+			);
+			name = CLGeocoderTests;
+			productName = CLGeocoderTests;
+			productReference = 395A9B97210F1E6B00552876 /* CLGeocoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		395A9BA1210F1E6B00552876 /* CLGeocoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 395A9BB1210F1E6B00552876 /* Build configuration list for PBXNativeTarget "CLGeocoderUITests" */;
+			buildPhases = (
+				395A9B9E210F1E6B00552876 /* Sources */,
+				395A9B9F210F1E6B00552876 /* Frameworks */,
+				395A9BA0210F1E6B00552876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				395A9BA4210F1E6B00552876 /* PBXTargetDependency */,
+			);
+			name = CLGeocoderUITests;
+			productName = CLGeocoderUITests;
+			productReference = 395A9BA2210F1E6B00552876 /* CLGeocoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		395A9B77210F1E6A00552876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = YangJing;
+				TargetAttributes = {
+					395A9B7E210F1E6A00552876 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					395A9B96210F1E6B00552876 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 395A9B7E210F1E6A00552876;
+					};
+					395A9BA1210F1E6B00552876 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 395A9B7E210F1E6A00552876;
+					};
+				};
+			};
+			buildConfigurationList = 395A9B7A210F1E6A00552876 /* Build configuration list for PBXProject "CLGeocoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 395A9B76210F1E6A00552876;
+			productRefGroup = 395A9B80210F1E6A00552876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				395A9B7E210F1E6A00552876 /* CLGeocoder */,
+				395A9B96210F1E6B00552876 /* CLGeocoderTests */,
+				395A9BA1210F1E6B00552876 /* CLGeocoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		395A9B7D210F1E6A00552876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A9B8F210F1E6B00552876 /* LaunchScreen.storyboard in Resources */,
+				395A9B8C210F1E6B00552876 /* Assets.xcassets in Resources */,
+				395A9B8A210F1E6A00552876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A9B95210F1E6B00552876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A9BA0210F1E6B00552876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		395A9B7B210F1E6A00552876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A9B87210F1E6A00552876 /* ViewController.m in Sources */,
+				395A9B92210F1E6B00552876 /* main.m in Sources */,
+				395A9B84210F1E6A00552876 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A9B93210F1E6B00552876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A9B9C210F1E6B00552876 /* CLGeocoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A9B9E210F1E6B00552876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395A9BA7210F1E6B00552876 /* CLGeocoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		395A9B99210F1E6B00552876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395A9B7E210F1E6A00552876 /* CLGeocoder */;
+			targetProxy = 395A9B98210F1E6B00552876 /* PBXContainerItemProxy */;
+		};
+		395A9BA4210F1E6B00552876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 395A9B7E210F1E6A00552876 /* CLGeocoder */;
+			targetProxy = 395A9BA3210F1E6B00552876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		395A9B88210F1E6A00552876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395A9B89210F1E6A00552876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		395A9B8D210F1E6B00552876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				395A9B8E210F1E6B00552876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		395A9BA9210F1E6B00552876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		395A9BAA210F1E6B00552876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		395A9BAC210F1E6B00552876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475L2MZD72;
+				INFOPLIST_FILE = CLGeocoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.wordoor.CLGeocoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		395A9BAD210F1E6B00552876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 475L2MZD72;
+				INFOPLIST_FILE = CLGeocoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.wordoor.CLGeocoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		395A9BAF210F1E6B00552876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = CLGeocoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.CLGeocoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLGeocoder.app/CLGeocoder";
+			};
+			name = Debug;
+		};
+		395A9BB0210F1E6B00552876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = CLGeocoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.CLGeocoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLGeocoder.app/CLGeocoder";
+			};
+			name = Release;
+		};
+		395A9BB2210F1E6B00552876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = CLGeocoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.CLGeocoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLGeocoder;
+			};
+			name = Debug;
+		};
+		395A9BB3210F1E6B00552876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7S6VUPM23;
+				INFOPLIST_FILE = CLGeocoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangjing.CLGeocoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLGeocoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		395A9B7A210F1E6A00552876 /* Build configuration list for PBXProject "CLGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A9BA9210F1E6B00552876 /* Debug */,
+				395A9BAA210F1E6B00552876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A9BAB210F1E6B00552876 /* Build configuration list for PBXNativeTarget "CLGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A9BAC210F1E6B00552876 /* Debug */,
+				395A9BAD210F1E6B00552876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A9BAE210F1E6B00552876 /* Build configuration list for PBXNativeTarget "CLGeocoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A9BAF210F1E6B00552876 /* Debug */,
+				395A9BB0210F1E6B00552876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		395A9BB1210F1E6B00552876 /* Build configuration list for PBXNativeTarget "CLGeocoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				395A9BB2210F1E6B00552876 /* Debug */,
+				395A9BB3210F1E6B00552876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 395A9B77210F1E6A00552876 /* Project object */;
+}
